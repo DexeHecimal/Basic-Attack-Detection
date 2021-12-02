@@ -1,0 +1,10 @@
+[Unit]
+Description=Automated packet capture system.
+After=network.target
+
+[Service]
+WorkingDirectory=/var/capture/
+ExecStart=sh capture.sh
+
+[Install]
+WantedBy=multi-user.target
