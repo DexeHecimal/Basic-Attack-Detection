@@ -8,8 +8,11 @@ _A basic bandwidth threshold monitor based attack detection. This attack detecti
 - _Automated packet capture **[24 hour based timestamps]**_
 - _Customizable systemctl daemon **[Service Management]**_
 
-### Depencies & Installation:
-##### Ubuntu/Debian Distrobutions ("sudo" may be applicable for Ubuntu based distrobutions)
+### You may need to change some paremeters
+_Please ensure that your primary nic's name is correct in the capture.sh file. Make sure that your discord webhook's/embed is customized for your service. Discord-Webhook python3 module documentation: https://pypi.org/project/discord-webhook/._
+
+### Depencies & Installation Guide:
+##### Ubuntu/Debian Distrobutions
 #
 ```shell
 $ apt update && apt full-upgrade -y && apt install python3 python3-pip tcpdump bc git -y
