@@ -1,5 +1,5 @@
 # Basic-Attack-Detection
-_A basic bandwidth threshold monitor based attack detection. This attack detection isn't perfect but with the correct settings depending on your services environment you can detect attacks. This attack detection will also monitor your server's bandwidth usage at the time of the attack and cpu usage. It also uses tcpdump to automatically capture the attack traffic and send it to discord. Customizable attack notification embeds are available as well._
+_A basic bandwidth threshold monitor-based attack detection. This attack detection isn't perfect but with the correct settings depending on your services environment you can detect attacks. This attack detection will also monitor your server's bandwidth usage at the time of the attack and CPU usage. It also uses tcpdump to automatically capture the attack traffic and send it to discord. Customizable attack notification embeds are available as well._
 
 ### Features Included in this tool are as the following:
 - _Bandwidth Monitor **[Modertaion]**_
