@@ -1,4 +1,5 @@
-#/bin/sh (Automated dump & report system refined by Zachery#3311)
+#!/bin/bash
+# (Automated dump & report system refined by Zachery T. Eritano)
 
 # primary nic name (change to your's if it's different.)
 interface=eth0
