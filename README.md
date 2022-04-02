@@ -15,10 +15,8 @@ _Please ensure that your primary nic's name is correct in the capture.sh file. M
 ##### Ubuntu/Debian Distrobutions
 #
 ```shell
-$ apt update && apt full-upgrade -y && apt install python3 python3-pip tcpdump bc git -y
-$ pip3 install discord-webhook
-$ mkdir /var/capture && mkdir /var/capture/dumps && cd /var/capture
+$ apt update && apt full-upgrade -y && apt install python3 python3-pip tcpdump bc git -y; pip3 install discord-webhook
 $ git clone https://github.com/DexeHecimal/Basic-Attack-Detection.git && chmod +x capture.sh
-$ mv capture.service /etc/systemd/system
-$ systemctl enable capture; systemctl start capture; systemctl status capture
+$ mv capture.service /etc/systemd/system/
+$ systemctl enable capture --now
  ```
