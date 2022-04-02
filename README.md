@@ -7,7 +7,7 @@ _A basic bandwidth-threshold monitor-based attack detection. This attack detecti
 - _Automated packet capture **[24 hour based timestamps]**_
 
 ### You may need to change some paremeters
-_Please ensure that your primary nic's name is correct in the capture.sh file. Make sure that your discord webhook's/embed is customized for your service. Discord-Webhook python3 module documentation: https://pypi.org/project/discord-webhook/._
+_Please ensure that your primary nic's name is correct in the capture.sh file. Make sure that your discord webhook's/embed is customized for your service. Discord-Webhook python3 module documentation: https://pypi.org/project/discord-webhook/. Also, depending on your network environment you may find it beneficial to increase the default packets(s) threshold to avoid false positivies from occuring._
 
 ### Depencies & Installation Guide:
 ##### Ubuntu/Debian Distrobutions
