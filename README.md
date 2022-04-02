@@ -17,4 +17,5 @@ $ apt update && apt full-upgrade -y && apt install python3 python3-pip tcpdump b
 $ git clone https://github.com/DexeHecimal/Basic-Attack-Detection.git && cd Basic-Attack-Detection && chmod +x capture.sh
 $ mv capture.service /etc/systemd/system/
 $ systemctl enable capture --now
+$ mkdir captured/
  ```
