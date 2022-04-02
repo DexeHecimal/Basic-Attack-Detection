@@ -4,7 +4,7 @@
 interface=eth0
 
 # active pcap directory
-dumpdir=/var/capture/dumps/
+dumpdir=/root/Basic-Attack-Detection/captured/
 
 while /bin/true; do
   # use subtraction to determine the amount per second.
@@ -25,7 +25,7 @@ while /bin/true; do
   echo -ne "\rpackets(s): $pkt | mbp(s): $mbps | cpu: $cpu %\033[0K"
 
   # change from 1000 packets(s) to your desired threshold.
-  if [ $pkt -gt 1000 ]; then
+  if [ $pkt -gt 50000 ]; then
     echo -e "\n`date` packets per second threshold reached, packet capturing enabled."
 
     # grab the current time.
