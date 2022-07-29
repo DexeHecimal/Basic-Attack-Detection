@@ -3,7 +3,7 @@
 
 # Import required modules for our script.
 from discord_webhook import DiscordWebhook, DiscordEmbed
-import sys
+from sys import argv
 
 # Recieve information passed by "capture.sh" as system arguments to be referenced.
 pps = sys.argv[1]
